@@ -150,7 +150,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 
 /* 3.1 - Small Devices, Tablets (≥768px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 768px) {
+@media only screen and (max-width : 768px) {
     .lt-main {
         font-size: 38px;
         font-size: 4.5vw;
@@ -164,6 +164,9 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
     .font4x {
         font-size: 152px;
         font-size: 18vw;
+    }
+    .last-text{
+        font-size: 10rem !important;
     }
 }
 

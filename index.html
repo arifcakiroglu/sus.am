@@ -205,7 +205,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-18" class="sven-slide bg-white" data-freeze-time="0.04">
 			<div class="content-container">
 				<h1 class="lt-main font2x" data-sin="animation: stomp-fx18-in">
-					SUSAMMM👊
+					<span class="susamcik"></span>&nbsp;SUSAMMM👊
 				</h1>
 			</div>
 		</div>
@@ -261,7 +261,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-25" class="sven-slide" data-trans="none" data-pursue-video="yes" data-scene-image="images/7.jpg" data-freeze-time="0.04">
 			<div class="content-container">
 				<h1 class="lt-main font2x tint-bl" data-sin="animation: stomp-fx25-in" style="color: #fff">
-					SUSAMMMM!
+					<span class="susamcik"></span>&nbsp;SUSAMMMM!
 				</h1>
 			</div>
 		</div>
@@ -293,7 +293,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-29" class="sven-slide" data-freeze-time="0.08">
 			<div class="content-container">
 				<h1 class="lt-main font2x" data-sin="animation: stomp-fx29-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -309,7 +309,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-31" class="sven-slide" data-freeze-time="0.08">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx31-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -325,7 +325,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-33" class="sven-slide" data-freeze-time="0.04">
 			<div class="content-container">
 				<h1 class="lt-main font2x" data-sin="animation: stomp-fx33-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -341,7 +341,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-35" class="sven-slide">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx35">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -349,7 +349,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-36" class="sven-slide" data-freeze-time="0.04">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx36-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -365,7 +365,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-38" class="sven-slide" data-freeze-time="0.12">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx38-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -381,7 +381,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-40" class="sven-slide bg-white">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx40">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -389,7 +389,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-41" class="sven-slide">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx41-in">
-					SUSAM!
+					<span class="susamcik"></span>&nbsp;SUSAM!
 				</h1>
 			</div>
 		</div>
@@ -405,7 +405,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-43" class="sven-slide" data-freeze-time="0.08">
 			<div class="content-container">
 				<h1 class="lt-main font2x" data-sin="animation: stomp-fx26-in">
-					SUSAM! 🖕
+					<span class="susamcik"></span>&nbsp;SUSAM! 🖕
 				</h1>
 			</div>
 		</div>
@@ -429,7 +429,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-46" class="sven-slide" data-freeze-time="0.04">
 			<div class="content-container">
 				<h1 class="lt-main" data-sin="animation: stomp-fx46-in">
-					kimsin
+					<span class="susamcik"></span>&nbsp;kimsin
 				</h1>
 			</div>
 		</div>
@@ -588,8 +588,8 @@ linkedin.com/in/arifcakiroglu
 
 		<div id="scene-66" class="sven-slide">
 			<div class="content-container">
-				<h1 class="lt-main font2x" data-sin="animation: stomp-fx66-in" style="font-size: 14em!important">
-					<span id="susamcik"></span>SUSAM! 👊
+				<h1 class="lt-main font2x last-text" data-sin="animation: stomp-fx66-in">
+					<span class="susamcik"></span>&nbsp;SUSAM!&nbsp;👊
 				</h1>
 			</div>
 		</div>
@@ -737,8 +737,7 @@ Compiled JS plugins
 	})(window.location.search.substr(1).split('&'));
 
 
-	if(qs['sus'])
-		document.getElementById("susamcik").innerHTML= qs['sus'] + '=>';
+	$('.susamcik').html(qs['sus'] ? qs['sus'].toUpperCase() : '&nbsp;' )	
 
 
 </script>
