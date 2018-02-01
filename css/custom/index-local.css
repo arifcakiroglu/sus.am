@@ -176,12 +176,11 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 }
 
 .sub-bg {
-	background-image: url("../../images/local/bg-laptop.jpg");
 	background-color: #111517;
 }
 
 #intro-content::before, .splash-page::before {
-    background-image: url("../../images/local/main-bg.jpg");
+    background-color: #111517;
 }
 
 .tf-logo {
