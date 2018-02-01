@@ -625,7 +625,7 @@ linkedin.com/in/arifcakiroglu
 							    </g>
 							</svg>
 
-							<div id="susamcik">Fatih!</div>
+							<div id="susamcik"></div>
 						</div> <!-- ## End Logo part ## -->
 
 						<div class="st-desc" style="text-align: center;"> <!-- ## Start Coming Soon Content ## -->
@@ -637,7 +637,7 @@ linkedin.com/in/arifcakiroglu
 							<p style="text-align: center; margin-top: 40px; font-weight: 400">
 								Linkin sonuna o malûm kişinin ismini yazın ve paylaşın 😄 <br>
 
-								<pre>http://sus.am/?sus=isim</pre>
+								<pre style="display: inline-block; border: none">http://sus.am/?sus=isim</pre>
 							</p>
 						
 						</div> <!-- ## End Coming Soon Content ## -->
@@ -737,7 +737,9 @@ Compiled JS plugins
 })(window.location.search.substr(1).split('&'));
 
 
-document.getElementById("susamcik").innerHTML= qs['sus'];
+	if(qs['sus'])
+		document.getElementById("susamcik").innerHTML= qs['sus'];
+
 
 </script>
 
