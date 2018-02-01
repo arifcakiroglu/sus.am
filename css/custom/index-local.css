@@ -1,61 +1,18 @@
-/*
-*
-* Template Name: Stomp - Typographic Intro
-* Concept: Template Landing Page / Coming Soon
-* Files Associated: index-local.html, index-local-countdown.html
-* Date Modified: 2017-06-29
-* Description: Custom Styles associated with the demos
-* Authors: Sven Creations(svencreations@gmail.com)
-*
-*/
-
-/* ==================================================================
-* Table of Contents:
-*
-* 1.0 - Custom Font Declarations(if any)
-* 2.0 - Custom Styles
-*       2.1 - Font Style Declarations and Other Fixes
-*       2.2 - Font Colors and Backgrounds
-* 3.0 - Responsive Styles
-* 		3.1 - Small Devices, Tablets (≥768px)
-* 		3.2 - Medium Devices, Desktops (≥992px)
-* 		3.3 - Large Devices, Desktops (≥1200px)
-*       3.4 - Wide Screens, Desktops (≥1824px)
-
-================================================================== */
-
-/* ==================================================================
-1.0 Custom Font Declarations(if any)
-================================================================== */
-@font-face {
-    font-family:'TeXGyreHeros';
-    src: url('../fonts/TeXGyreHeros-Bold.eot');
-	src: url('../fonts/TeXGyreHeros-Boldd41d.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/TeXGyreHeros-Bold.woff2') format('woff2'),
-		url('../fonts/TeXGyreHeros-Bold.woff') format('woff'),
-		url('../fonts/TeXGyreHeros-Bold.svg#TeXGyreHeros-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0-10FFFF;
-}
-
-/* ==================================================================
-2.0 Custom Styles
-================================================================== */
-
 /* 2.1 Font Style Declarations and Other Fixes
 -------------------------------------------------------------- */
 .fontLoaded .sven-container { /* Teaser Font */
-    font-family: 'TeXGyreHeros', sans-serif;
+    font-weight: 200;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Ubuntu,"Droid Sans","Helvetica Neue",sans-serif;
 }
 
 body {
-    font-family: 'Poppins', 'Tahoma', 'Geneva', sans-serif;
+     font-weight: 200;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Ubuntu,"Droid Sans","Helvetica Neue",sans-serif;
 }
 
 .sound-info {
-    font-family: "Arial", sans-serif;
+     font-weight: 200;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Ubuntu,"Droid Sans","Helvetica Neue",sans-serif;
 }
 
 #stomp-intro h1 {
@@ -277,4 +234,15 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
     .addr-details {
         text-align: left;
     }
+}
+
+
+.st-logo{
+    width: 80%;
+    text-align: center;
+    font-size: 30px
+}
+
+.st-logo div{
+    margin: 10px 0 20px;
 }
