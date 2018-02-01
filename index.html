@@ -589,7 +589,7 @@ linkedin.com/in/arifcakiroglu
 		<div id="scene-66" class="sven-slide">
 			<div class="content-container">
 				<h1 class="lt-main font2x" data-sin="animation: stomp-fx66-in">
-					SUSAM! 👊
+					<span id="susamcik"></span>SUSAM! 👊
 				</h1>
 			</div>
 		</div>
@@ -625,7 +625,7 @@ linkedin.com/in/arifcakiroglu
 							    </g>
 							</svg>
 
-							<div id="susamcik"></div>
+							
 						</div> <!-- ## End Logo part ## -->
 
 						<div class="st-desc" style="text-align: center;"> <!-- ## Start Coming Soon Content ## -->
@@ -723,22 +723,22 @@ Compiled JS plugins
 
 <script type="text/javascript">
 	var qs = (function(a) {
-    if (a == "") return {};
-    var b = {};
-    for (var i = 0; i < a.length; ++i)
-    {
-        var p=a[i].split('=', 2);
-        if (p.length == 1)
-            b[p[0]] = "";
-        else
-            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
-    }
-    return b;
-})(window.location.search.substr(1).split('&'));
+	    if (a == "") return {};
+	    var b = {};
+	    for (var i = 0; i < a.length; ++i)
+	    {
+	        var p=a[i].split('=', 2);
+	        if (p.length == 1)
+	            b[p[0]] = "";
+	        else
+	            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+	    }
+	    return b;
+	})(window.location.search.substr(1).split('&'));
 
 
 	if(qs['sus'])
-		document.getElementById("susamcik").innerHTML= qs['sus'];
+		document.getElementById("susamcik").innerHTML= qs['sus'] + '=>';
 
 
 </script>
